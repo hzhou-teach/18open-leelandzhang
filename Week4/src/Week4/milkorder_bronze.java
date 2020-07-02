@@ -10,9 +10,9 @@ public class milkorder_bronze
 {
 	public static void main(String args[]) throws IOException
 	{
-		//Scanner sc = new Scanner(new File("milkorder.in"));
-		//PrintWriter pr=new PrintWriter(new FileWriter("milkorder.out"));
-		Scanner sc = new Scanner(System.in);
+		Scanner sc = new Scanner(new File("milkorder.in"));
+		PrintWriter pr=new PrintWriter(new FileWriter("milkorder.out"));
+		//Scanner sc = new Scanner(System.in);
 		int n=sc.nextInt();
 		int m=sc.nextInt();
 		int k=sc.nextInt();
